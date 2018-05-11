@@ -4,7 +4,7 @@
 #wrap {width: 100%;}
 
 #header {height: 89px; border-bottom: 1px solid #efefef;}
-#banner {height: 550px; background: url(../img/banner-bg1.jpg) no-repeat center top; background-size: cover;}
+#banner {height: 550px;}
 #sbanner {border-top: 1px solid #efefef;}
 #select {background-color: #1d7abd;}
 #infor {}
@@ -55,6 +55,10 @@
 .banner em {font-size: 18px; color:#f66b05; display: block;}
 .banner .view {font-size: 16px; display: inline-block; margin-top:50px; border: 1px solid #333; background-color: #fff; padding: 12px 42px; transition:all 0.3s ease;}
 .banner .view:hover {background-color: #333; color:#fff; }
+.banner-img1 {background: url(../img/banner-bg1.jpg) no-repeat center top; background-size: cover;}
+.banner-img2 {background: url(../img/banner-bg1.jpg) no-repeat center top; background-size: cover;}
+.banner-img3 {background: url(../img/banner-bg1.jpg) no-repeat center top; background-size: cover;}
+
 
 /* sbanner */
 .sbanner {overflow: hidden; padding: 70px 0;}
@@ -118,20 +122,22 @@
 .ad .view {color:#fff; font-size: 16px; display: inline-block; margin-top: 50px; border: 1px solid #fff; padding: 12px 42px; transition: all 0.3s ease; }
 .ad .view:hover {background-color: #fff; color: #000;}
 
+
 /* blog */
-.blog {padding: 70px 0; }
+.blog {padding: 70px 0;}
 .blog h3 {font-size: 34px; margin-bottom: 50px;}
-.blog .blog-wrap {overflow: hidden; margin-bottom: 80px;} 
-.blog .blog-wrap > div {float:left; width: 23.5%; margin-right:2%; border-top : 2px solid #6f6f6f;}
+.blog .blog-wrap {overflow: hidden; margin-bottom: 80px; }
+.blog .blog-wrap > div {float: left; width: 23.5%; margin-right: 2%; border-top: 2px solid #6f6f6f;}
 /* .blog .blog-wrap > div:last-child {margin-right: 0;} */
-.blog .blog-wrap > div.last {margin-right: 0;} 
-.blog .blog-wrap > div h4 {font-size: 22px;  padding: 20px 0 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;} 
-.blog .blog-wrap > div p {font-size: 16px; color:#7e7e7e; margin-bottom: 40px; height:95px; overflow: hidden; 
-	text-overflow: ellipsis; 
-	display: -webkit-box; 
-	-webkit-line-clamp: 4; 
-	-webkit-box-orient: vertical;}
-.blog .blog-wrap > div figure img {width: 100%;}  
+.blog .blog-wrap > div.last {margin-right: 0;}
+.blog .blog-wrap > div h4 {font-size: 22px; padding: 20px 0 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;  }
+.blog .blog-wrap > div p {font-size: 16px; color: #7e7e7e; margin-bottom: 40px;  height: 95px;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 4; 
+      -webkit-box-orient: vertical;}
+.blog .blog-wrap > div figure img {width: 100%;  }
 
 .blog .notice-wrap {overflow: hidden;}
 .blog .notice-wrap .nw-left {float:left; width: 780px; position: relative;}
