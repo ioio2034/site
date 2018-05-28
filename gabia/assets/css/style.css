@@ -1,6 +1,4 @@
-
-
-/* layout */
+/* main layout */
 #wrap {width: 100%;}
 
 #header {height: 89px; border-bottom: 1px solid #efefef;}
@@ -13,7 +11,7 @@
 #site {background-color: #f8f9fa;}
 #footer {}
 
-/* sub page layout */
+/* sub page layout(idc/hosting) */
 #sub-banner {background: url(../img/sever-bg1.png) repeat-x center top;}
 #sub-banner.mail-bg {background: url(../img/mail-bg1.png) repeat-x center top;}
 #sub-banner.service-bg {background: url(../img/service-bg1.png) repeat-x center top;}
@@ -22,6 +20,25 @@
 #select2 {background-color: #1d7abd;}
 #select5 {background-color: #1d7abd;}
 #infor2 { }
+#hosting {background: url(../img/hosting-bg.png) repeat-x center top;}
+#select3-top {border-bottom: 1px solid #f3f3f3;}
+
+/* sub page layout(cloud/service) */
+#sub-banner2 {}
+#product-table2 {}
+#infor3 {border-top: 1px solid #efefef;}
+#ad3 {background: url(../img/cloud-ad-bg.png) repeat-x center top;}
+#cloud-infor {}
+#ad4 {background: #f9fafc;}
+#notice-qna2 {}
+#cloud-top,#cloud-mid,#cloud-bottom {border-bottom: 1px solid #f3f3f3;}
+
+/* sub page layout(mail/mail) */
+#product-table3 {}
+#infor4 {border-top: 1px solid #efefef;}
+#ad5 {background: url(../img/enterprise-bg.png) repeat-x center top;}
+#enter-sel1, #enter-sel2 {border-bottom: 1px solid #f3f3f3;}
+#notice-qna3 {}
 
 /* container */
 .container {width: 1180px; height: inherit; margin:0 auto; /* background-color: rgba(0,0,0,0.5); */}
@@ -58,7 +75,6 @@
 .banner-img1 {background: url(../img/banner-bg1.jpg) no-repeat center top; background-size: cover;}
 .banner-img2 {background: url(../img/banner-bg1.jpg) no-repeat center top; background-size: cover;}
 .banner-img3 {background: url(../img/banner-bg1.jpg) no-repeat center top; background-size: cover;}
-
 
 /* sbanner */
 .sbanner {overflow: hidden; padding: 70px 0;}
@@ -115,6 +131,39 @@
 .infor2 .infor-box .in-right li em { width: 90px; display: inline-block;}
 .infor2 .infor-box .in-right li strong {color:#1d7abd;}
 
+/* infor3 */
+.infor3 {padding: 70px 0; text-align:center;}
+.infor3 h3 {font-size: 40px; font-weight: 300; padding-bottom: 20px;}
+.infor3 .infor-btn {font-size: 16px; display: inline-block; margin-bottom: 50px; border: 1px solid #333; background-color: #fff; padding: 12px 42px; transition:all 0.3s ease;}
+.infor3 .infor-btn:hover {background-color: #333; color:#fff;}
+.infor3 .infor-box {overflow:hidden; text-align:left; padding: 0 150px;}
+.infor3 .infor-box .in-left {overflow:hidden; width: 50%; float: left;}
+.infor3 .infor-box .in-left h4 {float:left; width: 110px; height: 80px ;background-color: #1d7abd; color:#fff; border-radius:50%; font-size: 16px; text-align: center; padding-top: 30px;}
+.infor3 .infor-box .in-left ul {float:left; padding: 25px 0 0 20px;}
+.infor3 .infor-box .in-left li {padding-bottom: 10px; font-size: 16px;}
+.infor3 .infor-box .in-left li em {width: 170px; display: inline-block;}
+.infor3 .infor-box .in-left li strong {color:#1d7abd;}
+.infor3 .infor-box .in-right {overflow:hidden; width: 50%; float:left;}
+.infor3 .infor-box .in-right h4 {float:left; width: 110px; height: 90px ;background-color: #1d7abd; color:#fff; border-radius:50%; font-size: 16px; text-align: center; padding-top: 20px;}
+.infor3 .infor-box .in-right ul {float:left; padding: 40px 0 0 20px;}
+.infor3 .infor-box .in-right li {font-size: 16px; padding-bottom: 10px;}
+.infor3 .infor-box .in-right li em {width: 90px; display: inline-block;}
+.infor3 .infor-box .in-right li strong {color:#1d7abd;}
+
+/* infor4 */
+.infor4 {padding: 70px 0; text-align:center;}
+.infor4 h3 {font-size: 40px; font-weight: 300; padding-bottom: 15px;}
+.infor4 p {padding-bottom: 35px; font-size: 16px;}
+.infor4 .infor-btn {font-size: 16px; display: inline-block; margin-bottom: 50px; border: 1px solid #333; background-color: #fff; padding: 12px 42px; transition:all 0.3s ease;}
+.infor4 .infor-btn:hover {background-color: #333; color:#fff;}
+.infor4 .infor-box {overflow:hidden; text-align:left; padding: 0 150px;}
+.infor4 .infor-box .in-left {overflow:hidden; width: 50%; float: left;}
+.infor4 .infor-box .in-left h4 {float:left; width: 110px; height: 90px; background-color:#1d7abd; color:#fff; border-radius:50%; font-size:16px; text-align: center; padding-top: 20px;}
+.infor4 .infor-box .in-left p {float:left; font-size: 36px; font-weight: 700; padding: 30px 0 0 20px; color:#1d7abd;}
+.infor4 .infor-box .in-right {overflow:hidden; width: 50%; float:left;}
+.infor4 .infor-box .in-right h4 {float:left; width: 110px; height: 75px ;background-color: #1d7abd; color:#fff; border-radius:50%; font-size: 16px; text-align: center; padding-top: 35px;}
+.infor4 .infor-box .in-right p {float:left; font-size: 36px; font-weight: 700; padding: 30px 0 0 20px; color:#1d7abd;}
+
 /* ad */
 .ad {padding: 70px 0; text-align: center; color:#fff;}
 .ad h3 {font-size: 40px; padding-bottom: 20px;}
@@ -122,6 +171,26 @@
 .ad .view {color:#fff; font-size: 16px; display: inline-block; margin-top: 50px; border: 1px solid #fff; padding: 12px 42px; transition: all 0.3s ease; }
 .ad .view:hover {background-color: #fff; color: #000;}
 
+/* hosting(ad2) */
+.hosting {padding: 70px 0; text-align: center; color:#fff;}
+.hosting h3 {font-size: 40px; padding-bottom: 20px;}
+.hosting p {font-size: 16px; padding-bottom: 85px;}
+.hosting .sever-hosting {padding-bottom: 0;}
+
+/* ad3 */
+.ad3 {padding: 70px 0; text-align: center; color:#fff;}
+.ad3 h3 {font-size: 40px; padding-bottom: 20px;}
+.ad3 p {font-size: 16px; padding-bottom: 85px; font-weight: 300;}
+.ad3 .about-cloud {padding-bottom: 0;}
+
+/* ad4 */
+.ad4 {padding: 70px 0; text-align:center;}
+.ad4 h3 {font-weight: 300; font-size: 40px;}
+
+/* ad5 */
+.ad5 {padding: 70px 0; text-align:center; color:#fff;}
+.ad5 h3 {font-weight: 300; font-size: 40px; }
+.ad5 p {font-size: 16px; padding-top: 15px;}
 
 /* blog */
 .blog {padding: 70px 0;}
@@ -200,12 +269,30 @@
 .sub-banner .sb-right li.sub-icon3 a {background: url(../img/sever-icon3.png) no-repeat 17px 13px;}
 .sub-banner .sb-right li a:hover {color:#fff; border: 2px solid #fff; }
 
+/* sub-banner2 */
+.sub-banner2 {padding: 45px 0; overflow:hidden; border-bottom: 1px solid #f3f3f3;}
+.sub-banner2 div {float:left; width: 50%;}
+.sub-banner2 .sb2-left {padding:0.5% 0 1% 8%; box-sizing:border-box; background: url(../img/sub-banner2-1.png) no-repeat 0 0;}
+.sub-banner2 .sb2-right {padding:0.5% 0 1% 8%; box-sizing:border-box; background: url(../img/sub-banner2-2.png) no-repeat 0 0;}
+.sub-banner2 div a {font-size: 18px; display: block; padding-bottom: 8px;}
+.sub-banner2 div a:hover {text-decoration:underline; color:#000;}
+.sub-banner2 div p {font-size: 16px; color:#666;} 
+
 /* product-table */
 .product-table {padding: 80px 0;}
 .product-table .more {text-align: center; padding:20px 0 40px; font-size: 14px; }
 .product-table .list li {font-size: 14px; line-height: 28px; position: relative; padding-left: 10px;}
 .product-table .list li:before {content: ''; width: 4px; height: 4px; border-radius: 50%; background-color: #333; position: absolute; left: 0; top: 12px;}
 .product-table .list .help {font-size: 18px;}
+
+/* product-table2 */
+.product-table2 {padding: 80px 0; overflow:hidden;}
+.product-table2 .table-title2 .detail {float:right; color:#1d7abd; font-size: 18px; padding-bottom: 20px;}
+
+/* product-table3 */
+.product-table3 {padding: 80px 0; overflow:hidden;}
+.product-table3 .table-title3 .detail {float:right; color:#1d7abd; font-size: 18px; padding-bottom: 20px;}
+.product-table3 .install {float:right; padding-top: 10px; font-size: 16px;}
 
 /* table-title1 */
 .table-title1 {position: relative; padding-bottom: 20px;}
@@ -229,10 +316,32 @@
 .table-style1 .view {display: inline-block; padding: 5px 45px; color: #fff; background-color: #3090d6; font-size: 16px;}
 
 /* table-style2 */
-.table-style2 {}
+.table-style2 table {border-top: 2px solid #6f6f6f; border-bottom: 1px solid #9a9a9a; text-align:center;}
+.table-style2 table thead th {font-size: 24px; background-color: #f9fafc; border-bottom: 1px solid #ccc; padding: 48px 0 45px; border-right: 1px solid #e4e4e4;}
+.table-style2 table thead th a {font-weight: 400;}
+.table-style2 table thead th i {color:#1d7abd;}
+.table-style2 table thead th:last-child {border-right:0;}
+.table-style2 table tbody th {font-size: 16px; font-weight: 400; color:#333;  padding-left:  20px;border-bottom: 1px solid #ccc; border-right: 1px solid #e4e4e4; text-align: left;}
+.table-style2 table tbody td {font-size: 16px; color:#666; padding: 20px 30px; border-right: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4;}
+.table-style2 table tbody td:last-child {border-right:0;}
+.table-style2 .left {text-align: left; color:#333;}
+.table-style2 .view {margin-top: 10px; display: inline-block; padding: 5px 25px; color: #fff; background-color: #3090d6; font-size: 16px;}
+
 
 /* table-style3 */
-.table-style3 {}
+.table-style3 table {border-top: 2px solid #6f6f6f; border-bottom: 1px solid #9a9a9a; text-align:center;}
+.table-style3 table thead th {font-size: 28px; font-weight: 400; background-color: #f9fafc; border-bottom: 1px solid #ccc; padding: 48px 0 45px; border-right: 1px solid #e4e4e4;}
+.table-style3 table thead th span {font-size: 26px; font-weight: 300;}
+.table-style3 table thead th a {font-weight: 400;}
+.table-style3 table thead th:last-child {border-right:0;}
+.table-style3 table tbody th {font-size: 16px; font-weight: 400; color:#000;  padding-left: 20px;border-bottom: 1px solid #ccc; border-right: 1px solid #e4e4e4; text-align: left;}
+.table-style3 .free-gift {font-size: 18px; font-weight: 400; background-color: #f9fafc; padding: 20px;}
+.table-style3 table tbody td {font-size: 16px; color:#666; padding: 20px 30px; border-right: 1px solid #e4e4e4; border-bottom: 1px solid #e4e4e4;}
+.table-style3 table tbody td:last-child {border-right:0;}
+.table-style3 .plus {display:block;}
+.table-style3 .small {font-size: 13px;}
+.table-style3 .view {margin-top: 30px; display: inline-block; padding: 7px 32px; color: #fff; background-color: #3090d6; font-size: 16px;}
+
 
 /* select2 */
 .select2 {overflow: hidden; padding: 70px 0;}
@@ -242,6 +351,33 @@
 .select2 > div.simg2 {background : #2886ca url(../img/select2-bg2.png) no-repeat 40px 40px; margin-right: 0;}
 .select2 > div h4 {font-size: 18px; color: #fff; padding-bottom: 20px; padding-top: 150px;}
 .select2 > div p {font-size: 15px; color:#fff;}
+
+/* select3-top */
+.select3-top {overflow:hidden; padding: 70px 0;}
+.select3-top h3 {text-align: center; font-size: 40px; font-weight: 300; padding-bottom: 90px;}
+.select3-top > div {float:left; width: 33.1%;  color:#333; text-align: center; font-weight: 300; height: 300px;}
+.select3-top > div h4 {margin: 8px 0; font-size: 18px; padding-top: 100px;}
+.select3-top > div p {font-size: 16px;}
+.select3-top > div.s3-img1 {background : url(../img/select3-top1.png) no-repeat 160px 20px;}
+.select3-top > div.s3-img2 {background : url(../img/select3-top2.png) no-repeat 160px 20px;}
+.select3-top > div.s3-img3 {background : url(../img/select3-top3.png) no-repeat 160px 20px;}
+.select3-top > div.s3-img3 a:hover h4 {text-decoration: underline; color:#000;}
+.select3-top > div.s3-img3 a:hover p {color:#333; } 
+
+/* select3-bottom */
+.select3-bottom {overflow:hidden; padding: 70px 0;}
+.select3-bottom h3 {text-align: center; font-size: 40px; font-weight: 300; padding-bottom: 90px;}
+.select3-bottom > div {float:left; width: 33.1%;  color:#333; text-align: center; font-weight: 300; height: 300px;}
+.select3-bottom > div h4 {margin: 8px 0; font-size: 18px; padding-top: 100px;}
+.select3-bottom > div p {font-size: 16px;}
+.select3-bottom > div.s3-img1 {background : url(../img/select3-bottom1.png) no-repeat 160px 20px;}
+.select3-bottom > div.s3-img2 {background : url(../img/select3-bottom2.png) no-repeat 160px 20px;}
+.select3-bottom > div.s3-img3 {background : url(../img/select3-bottom3.png) no-repeat 160px 20px;}
+.select3-bottom > div.s3-img1 a:hover h4 {text-decoration: underline; color:#000;}
+.select3-bottom > div.s3-img1 a:hover p {color:#333;}
+.select3-bottom > div.s3-img2 i {color:#1d7abd;}
+.select3-bottom > div.s3-img3 a:hover h4 {text-decoration: underline; color:#000;}
+.select3-bottom > div.s3-img3 a:hover p {color:#333;}
 
 /* select5 */
 .select5 {overflow: hidden; padding: 70px 0;}
@@ -255,3 +391,140 @@
 .select5 > div h4 {font-size: 18px; color: #fff; padding-bottom: 20px; padding-top: 150px;}
 .select5 > div p {font-size: 15px; color:#fff;}
 
+/* cloud-top */
+.cloud-top {overflow: hidden; padding: 70px 0;}
+.cloud-top h3 {font-size: 40px; color:#000; font-weight: 300; text-align:center; padding-bottom: 60px;}
+.cloud-top > div {float:left; width: 33.333%; text-align: center; height: 250px; font-weight: 300;}
+.cloud-top > div h4 {margin: 8px 0; font-size: 18px; padding-top: 100px; color:#000;}
+.cloud-top > div p {font-size: 16px; color:#333;}
+.cloud-top > div.ct1 {background: url(../img/cloud-top1.png) no-repeat center 20px;}
+.cloud-top > div.ct1 a:hover h4 {text-decoration: underline; color:#000;}
+.cloud-top > div.ct1 a:hover p {color:#333;}
+.cloud-top > div.ct2 {background: url(../img/cloud-top2.png) no-repeat center 20px;}
+.cloud-top > div.ct2 a:hover h4 {text-decoration: underline; color:#000;}
+.cloud-top > div.ct2 a:hover p {color:#333;}
+.cloud-top > div.ct3 {background: url(../img/cloud-top3.png) no-repeat center 20px;}
+.cloud-top > div.ct4 {background: url(../img/cloud-top4.png) no-repeat center 20px;}
+.cloud-top > div.ct5 {background: url(../img/cloud-top5.png) no-repeat center 20px;}
+.cloud-top > div.ct6 {background: url(../img/cloud-top6.png) no-repeat center 20px;}
+
+
+/* #cloud-mid */
+.cloud-mid {overflow: hidden; padding: 70px 0;}
+.cloud-mid h3 {font-size: 40px; color:#000; font-weight: 300; text-align:center; padding-bottom: 60px;}
+.cloud-mid > div {float:left; width: 25%; text-align: center; height: 250px; font-weight: 300;}
+.cloud-mid > div h4 {margin: 8px 0; font-size: 18px; padding-top: 100px; color:#000;}
+.cloud-mid > div p {font-size: 16px; color:#333;}
+.cloud-mid > div.cm1 {background: url(../img/cloud-mid1.png) no-repeat center 20px;}
+.cloud-mid > div.cm2 {background: url(../img/cloud-mid2.png) no-repeat center 20px;}
+.cloud-mid > div.cm3 {background: url(../img/cloud-mid3.png) no-repeat center 20px;}
+.cloud-mid > div.cm3 i {color:#1d7abd;}
+.cloud-mid > div.cm4 {background: url(../img/cloud-mid4.png) no-repeat center 20px;}
+.cloud-mid > div.cm5 {background: url(../img/cloud-mid5.png) no-repeat center 20px;}
+.cloud-mid > div.cm5 i {color:#1d7abd;}
+.cloud-mid > div.cm6 {background: url(../img/cloud-mid6.png) no-repeat center 20px;}
+.cloud-mid > div.cm6 i {color:#1d7abd;}
+.cloud-mid > div.cm7 {background: url(../img/cloud-mid7.png) no-repeat center 20px;}
+.cloud-mid > div.cm7 a:hover h4 {text-decoration: underline; color:#000;}
+.cloud-mid > div.cm7 a:hover p {color:#333;}
+.cloud-mid > div.cm8 {background: url(../img/cloud-mid8.png) no-repeat center 20px;}
+.cloud-mid > div.cm8 a:hover h4 {text-decoration: underline; color:#000;}
+.cloud-mid > div.cm8 a:hover p {color:#333;}
+
+/* cloud-bottom */
+.cloud-bottom {overflow: hidden; padding: 70px 0;}
+.cloud-bottom h3 {font-size: 40px; color:#000; font-weight: 300; text-align:center; padding-bottom: 60px;}
+.cloud-bottom > div {float:left; width: 25%; text-align: center; height: 250px; font-weight: 300;}
+.cloud-bottom > div h4 {margin: 8px 0; font-size: 18px; padding-top: 100px; color:#000;}
+.cloud-bottom > div p {font-size: 16px; color:#333;}
+.cloud-bottom > div.cb1 {background: url(../img/cloud-bottom1.png) no-repeat center 20px;}
+.cloud-bottom > div.cb1 a:hover h4 {text-decoration: underline; color:#000;}
+.cloud-bottom > div.cb1 a:hover p {color:#333;}
+.cloud-bottom > div.cb2 {background: url(../img/cloud-bottom2.png) no-repeat center 20px;}
+.cloud-bottom > div.cb2 a:hover h4 {text-decoration: underline; color:#000;}
+.cloud-bottom > div.cb2 a:hover p {color:#333;}
+.cloud-bottom > div.cb3 {background: url(../img/cloud-bottom3.png) no-repeat center 20px;}
+.cloud-bottom > div.cb3 a:hover h4 {text-decoration: underline; color:#000;}
+.cloud-bottom > div.cb3 a:hover p {color:#333;}
+.cloud-bottom > div.cb4 {background: url(../img/cloud-bottom4.png) no-repeat center 20px;}
+.cloud-bottom > div.cb4 a:hover h4 {text-decoration: underline; color:#000;}
+.cloud-bottom > div.cb4 a:hover p {color:#333;}
+
+/* enter-sel1 */
+.enter-sel1 {overflow:hidden; padding: 70px 0;}
+.enter-sel1 h3 {text-align: center; font-size: 40px; font-weight: 300; padding-bottom: 70px;}
+.enter-sel1 > div {float:left; width: 33.1%;  color:#333; text-align: center; font-weight: 300; height: 300px;}
+.enter-sel1 > div h4 {margin: 8px 0; font-size: 18px; padding-top: 100px;}
+.enter-sel1 > div p {font-size: 16px;}
+.enter-sel1 > div.sel1-box1 {background : url(../img/enter-top1.png) no-repeat 160px 20px;}
+.enter-sel1 > div.sel1-box2 {background : url(../img/enter-top2.png) no-repeat 160px 20px;}
+.enter-sel1 > div.sel1-box3 {background : url(../img/enter-top3.png) no-repeat 160px 20px;}
+.enter-sel1 > div.sel1-box1 a:hover h4 {text-decoration: underline; color:#000;}
+.enter-sel1 > div.sel1-box1 a:hover p {color:#333;}
+.enter-sel1 > div.sel1-box2 a:hover h4 {text-decoration: underline; color:#000;}
+.enter-sel1 > div.sel1-box2 a:hover p {color:#333;} 
+.enter-sel1 > div.sel1-box3 a:hover h4 {text-decoration: underline; color:#000;}
+.enter-sel1 > div.sel1-box3 a:hover p {color:#333;} 
+
+/* enter-sel2 */
+.enter-sel2 {overflow:hidden; padding: 70px 0;}
+.enter-sel2 h3 {text-align: center; font-size: 40px; font-weight: 300; padding-bottom: 70px;}
+.enter-sel2 > div {float:left; width: 33.1%;  color:#333; text-align: center; font-weight: 300; height: 300px;}
+.enter-sel2 > div h4 {margin: 8px 0; font-size: 18px; padding-top: 100px;}
+.enter-sel2 > div p {font-size: 16px;}
+.enter-sel2 > div.sel2-box1 {background:url(../img/enter-bottom1.png) no-repeat 160px 20px;}
+.enter-sel2 > div.sel2-box2 {background:url(../img/enter-bottom2.png) no-repeat 160px 20px;}
+.enter-sel2 > div.sel2-box3 {background:url(../img/enter-bottom3.png) no-repeat 160px 20px;}
+.enter-sel2 > div.sel2-box1 a:hover h4 {text-decoration: underline; color:#000;}
+.enter-sel2 > div.sel2-box1 a:hover p {color:#333;}
+.enter-sel2 > div.sel2-box2 h4 i {color:#1d7abd;}
+.enter-sel2 > div.sel2-box3 a:hover h4 {text-decoration: underline; color:#000;}
+.enter-sel2 > div.sel2-box3 a:hover p {color:#333;}
+
+/* notice-qna */
+.notice-qna {padding: 70px 0; position: relative;}
+.notice-qna h3 {font-size: 32px; padding-bottom: 20px;}
+.notice-qna .total {font-size: 16px; color:#666; position: absolute; right: 0; top: 90px;}
+.notice-qna ul {border-top: 2px solid #6f6f6f;}
+.notice-qna ul li {position: relative; overflow:hidden; padding: 22px; border-bottom: 1px solid #e5e5e5; }
+.notice-qna li a {font-size: 16px; margin-left: 45px;}
+.notice-qna li a:hover {color:#000;} 
+.notice-qna li a span {position: absolute; left: 22px; top: 22px; background: #1d7abc; width: 26px; height: 26px; text-align: center; color: #fff; font-weight: 300;
+    border-radius: 50%; }
+
+/* notice-qna2 */
+.notice-qna2 {padding: 70px 0; position: relative;}
+.notice-qna2 h3 {font-size: 32px; padding-bottom: 20px;}
+.notice-qna2 .total {font-size: 16px; color:#666; position: absolute; right: 0; top: 90px;}
+.notice-qna2 ul {border-top: 2px solid #6f6f6f;}
+.notice-qna2 ul li {position: relative; overflow:hidden; padding: 22px; border-bottom: 1px solid #e5e5e5;}
+.notice-qna2 li a {font-size: 14px; margin-left: 45px;}
+.notice-qna2 li a:hover {color:#000;}
+.notice-qna2 li a span {position: absolute; left: 22px; top: 22px; background: #1d7abc; width: 27px; height: 22px; padding-top: 5px; text-align: center; color: #fff; font-weight: 300;
+    border-radius: 50%;}
+
+/* notice-qna3 */
+.notice-qna3 {padding: 70px 0; position: relative;}
+.notice-qna3 h3 {font-size: 32px; padding-bottom: 20px;}
+.notice-qna3 .total {font-size: 16px; color:#666; position: absolute; left: 220px; top: 87px;}
+.notice-qna3 ul {border-top: 2px solid #6f6f6f;}
+.notice-qna3 ul li {position: relative; overflow:hidden; padding: 22px; border-bottom: 1px solid #e5e5e5;}
+.notice-qna3 li a {font-size: 16px; margin-left: 45px; color:#666;}
+.notice-qna3 li a:hover {color:#000;}
+.notice-qna3 li a span {position: absolute; left: 22px; top: 22px; background: #1d7abc; width: 27px; height: 25px; padding-top: 2px; text-align: center; color: #fff; font-weight: 300;
+	border-radius: 50%;}
+
+/* cloud-infor */
+.cloud-infor {overflow:hidden; padding-top: 90px;}
+.cloud-infor div {float:left; width:29.33333%; padding: 2%; text-align:center; position: relative; margin-bottom: 30px;}
+.cloud-infor div:nth-child(4) {margin-left: 17%;}
+.cloud-infor div h4 {width: 100px; height: 60px; background-color: #a1dffe; border-radius:50%;  font-size: 16px; text-align: center; padding-top: 40px; position: absolute; left: 150px; top: -37px; z-index:1;}
+.cloud-infor div .infor-box1 {border:1px solid #e5e5e5; width:100%; padding-top: 50px;}
+.cloud-infor div .infor-box2 {border:1px solid #e5e5e5; width:100%; padding-top: 50px;}
+.cloud-infor div .infor-box3 {border:1px solid #e5e5e5; width:100%; padding-top: 50px;}
+.cloud-infor div .infor-box4 {border:1px solid #e5e5e5; width:100%; padding-top: 50px;}
+.cloud-infor div .infor-box5 {border:1px solid #e5e5e5; width:100%; padding-top: 50px;}
+.cloud-infor div p {font-size: 16px; padding: 15px 0;}
+.cloud-infor div ul {text-align:left; font-size: 14px;  height: 200px;}
+.cloud-infor div ul li {position: relative; padding-left: 25px;}
+.cloud-infor div ul li:before {content:''; width: 4px; height: 4px; background-color: #000; border-radius: 50%; position: absolute; left: 15px; top: 6px;}
